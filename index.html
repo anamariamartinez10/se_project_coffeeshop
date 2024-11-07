@@ -94,7 +94,59 @@
       </section>
 
       <!-- Reservation "Book a table" Section -->
-      <section class="reservation" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <h1 class="reservation__title">Book a table</h1>
+        <form action="" class="reservation__form">
+          <fieldset class="form__fieldset">
+
+            <label for="name" class="form__label">Name *</label>
+            <input
+              type="text"
+              class="form__input"
+              id="name"
+              placeholder="Name Surname"
+              required
+            />
+
+            <label for="number-guests" class="form__label">Number of guests *</label>
+            <input
+              type="number"
+              class="form__input"
+              id="number-guests"
+              placeholder="1-8"
+              required
+            />
+
+            <label for="date-time" class="form__label">Date & Time *</label>
+            <input
+              type="datetime-local"
+              class="form__input"
+              id="date-time"
+              required
+            />
+
+            <label for="email" class="form__label">Your email *</label>
+            <input
+              type="email"
+              class="form__input"
+              id="email"
+              placeholder="email@email.com"
+              required
+            />
+
+            <button class="form__button">Book a table</button>
+
+            <label for="agree" class="form__label">I agree with the terms of use</label>
+            <input
+              type="checkbox"
+              class="form__checkbox"
+              id="agree"
+              required
+            />
+
+          </fieldset>
+        </form>
+      </section>
 
       <!-- Menu Section -->
       <section class="menu" id="menu"></section>
