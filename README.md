@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Making the circles fade in and out to resemble steam
+- Add a menu of video options, so that the user could select the kind of coffee maker they are using
