@@ -9,3 +9,53 @@
 }
 
 /* Menu Section */
+.menu {
+  background-image: url(../images/background_menu.svg);
+  background-color: #D9E7FF;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+}
+.menu__title {
+  margin: 0;
+  padding: 100px 0 0px;
+  max-width: 780px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 24px auto 0;
+  max-width: 780px;
+}
+
+/* Card Section */
+
+.menu__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  gap: 100;
+}
+
+.card__title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.card__three {
+  align-self: flex-end;
+  justify-self: center;
+}
