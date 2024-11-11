@@ -1,9 +1,10 @@
 .menu {
-  background-image: url("../images/background_menu.svg");
+  background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
-  box-sizing: border-box;
   background-position: center;
+  box-sizing: border-box;
   background-size: cover;
+  background: #FFF;
   display: flex;
   align-items: center;
   flex-direction: column;
