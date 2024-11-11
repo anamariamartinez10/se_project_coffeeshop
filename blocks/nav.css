@@ -28,4 +28,5 @@
 
 .nav__link:hover {
   color: #3F96F3;
+  opacity: 50%;
 }
