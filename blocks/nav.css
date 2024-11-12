@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   margin: 0;
-  height: 30px;
 }
 
 .nav__logo {
@@ -21,12 +20,12 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
+  transition: opacity .2s ease-in-out;
 }
 
 .nav__link:hover {
-  color: #3F96F3;
   opacity: 50%;
 }
