@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-color: #0A2750;
   color: #fff;
-  min-height: 720px;
   padding: 100px 80px 215px;
 }
 
@@ -29,6 +28,7 @@
   justify-content: center;
   gap: 40px;
   margin: 80px 0 0;
+  padding: 0;
   list-style-type: none;
   flex-wrap: wrap;
 }
